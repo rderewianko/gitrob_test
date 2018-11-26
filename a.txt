@@ -1,2 +1,0 @@
-password="Cisco123!"
-email="xyz@cisco.com"
