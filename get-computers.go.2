@@ -37,7 +37,7 @@ func main() {
 		log.Fatal(err)
 	}
 	client := &http.Client{}
-	req.SetBasicAuth("dlp_casper_api.gen", "J&#45kklmn")
+	req.SetBasicAuth("dlp_casper_api.gen", "J&#45kklmn") <--- EXPOSED CREDS
 	req.Header.Set("Accept", "application/json")
 	response, err := client.Do(req)
 	if err != nil {
